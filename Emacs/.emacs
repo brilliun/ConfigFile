@@ -1,3 +1,9 @@
+;; use utf-8 as default
+;;(prefer-coding-system 'utf-8)
+;;(setq coding-system-for-read 'utf-8)
+;;(setq coding-system-for-write 'utf-8)
+
+
 ;;; Tab with 4 spaces
 (setq c-basic-offset 4)
 (setq-default indent-tabs-mode nil)
@@ -10,6 +16,13 @@
       mac-command-key-is-meta t
       mac-command-modifier 'meta
       mac-option-modifier 'none)
+
+
+;;; Switch between windows using arrow keys
+(global-set-key (kbd "C-x <left>") 'windmove-left)          ; move to left windnow
+(global-set-key (kbd "C-x <right>") 'windmove-right)        ; move to right window
+(global-set-key (kbd "C-x <up>") 'windmove-up)              ; move to upper window
+(global-set-key (kbd "C-x <down>") 'windmove-down)          ; move to downer window
 
 
 ;;; Enable only when coding in php
