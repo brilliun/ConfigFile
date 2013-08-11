@@ -1,3 +1,8 @@
+;;; Set Backup File Location
+(setq backup-directory-alist '(("." . "~/.emacs.d/backup")))
+;;; But actually I dont want them even be created
+(setq make-backup-files nil)
+
 ;;; Hide tool-bar, scroll-bar, (menu-bar)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
@@ -20,10 +25,10 @@
 
 
 ;;; Tab with 4 spaces
-;(setq c-basic-offset 4)
-;(setq-default indent-tabs-mode 0)
-;(setq-default tab-width 4)
-;(setq indent-line-function 'insert-tab)
+(setq c-basic-offset 4)
+(setq-default indent-tabs-mode 0)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
 
 ;;; Use command key for meta under Mac
