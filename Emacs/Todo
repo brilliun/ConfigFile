@@ -5,3 +5,7 @@
 * bind C-enter as 'add a new line under the current one and jump down to it'
 
 * Smart tabs
+
+* Comment using C-c ;
+
+* Comment font to be italic
