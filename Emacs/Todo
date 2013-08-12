@@ -1,10 +1,9 @@
-* generate all *~ file into a single configurable location
-
 * parentheses(brackets) highlights while inside
 
 * bind C-enter as 'add a new line under the current one and jump down to it'
 
 * Smart tabs
+
 
 * Comment using C-c ;
 
