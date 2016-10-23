@@ -1,0 +1,7 @@
+[
+	{ "keys": ["tab"], "command": "reindent", "context":
+		[
+			{ "key": "setting.auto_indent", "operator": "equal", "operand": true }
+		]
+	}
+]
